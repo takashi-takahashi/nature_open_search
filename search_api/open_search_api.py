@@ -148,6 +148,6 @@ def make_each_query(index, relation, term):
     Returns:
         descriptor + relation + "arguments"
     """
-    relation_dictionary = {"=": "%3D", "==": "%3D", "<>": "<>", "adj": "adj", "all": "all", "any": "any"}
+    relation_dictionary = {"=": "%3D", "==": "%3D%3D", "<>": "<>", "adj": "adj", "all": "all", "any": "any"}
 
     return "+".join([index, relation_dictionary[relation]]) + "+\"" + "+".join(term.split(" ")) + "\""
