@@ -1,2 +1,3 @@
 # nature_open_search
-nature open searchからデータを取得するPython module
+A Python module to get data via Nature OpenSearch API.
+* See executor.py for sample execution code.
