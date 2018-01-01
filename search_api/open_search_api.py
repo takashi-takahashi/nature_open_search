@@ -46,44 +46,44 @@ def search(cql_keywords=("=", ""),
 
     Args:
         cql_keywords: cql.keywords index specified with tuple (RELATION, "TERM")
-        cql_resultSetId:
-        dc_creator:
-        dc_description:
-        dc_identifier:
-        dc_publisher:
-        dc_subject:
-        dc_title:
-        dcterms_isPartOf:
-        medline_chemical:
-        medline_mesh:
-        medline_pmid:
-        palgraveconnect_affiliation:
-        pam_status:
-        prism_aggregationType:
-        prism_channel:
-        prism_copyright:
-        prism_coverDate:
-        prism_creationDate:
-        prism_doi:
-        prism_eIssn:
-        prism_endingPage:
-        prism_genre:
-        prism_isbn:
-        prism_issn:
-        prism_number:
-        prism_productCode:
-        prism_publicationDate:
-        prism_publicationName:
-        prism_section:
-        prism_startingPage:
-        prism_subsection1:
-        prism_url:
-        prism_volume:
-        maximum_records:
-        start_record:
+        cql_resultSetId: cql.resultSetId index specified with tuple (RELATION, "TERM")
+        dc_creator: dc.creator index specified with tuple (RELATION, "TERM")
+        dc_description: dc.description index specified with tuple (RELATION, "TERM")
+        dc_identifier: dc.identifier index specified with tuple (RELATION, "TERM")
+        dc_publisher: dc.publisher index specified with tuple (RELATION, "TERM")
+        dc_subject: dc.subject index specified with tuple (RELATION, "TERM")
+        dc_title: dc.title index specified with tuple (RELATION, "TERM")
+        dcterms_isPartOf: dcterms.isPartOf index specified with tuple (RELATION, "TERM")
+        medline_chemical: medline.chemical index specified with tuple (RELATION, "TERM")
+        medline_mesh: medline.mesh index specified with tuple (RELATION, "TERM")
+        medline_pmid: medline.pmid index specified with tuple (RELATION, "TERM")
+        palgraveconnect_affiliation: palgraveconnect.affiliation index specified with tuple (RELATION, "TERM")
+        pam_status: pam.status index specified with tuple (RELATION, "TERM")
+        prism_aggregationType: prism.aggregationType index specified with tuple (RELATION, "TERM")
+        prism_channel: prism.channel index specified with tuple (RELATION, "TERM")
+        prism_copyright: prism.copyright index specified with tuple (RELATION, "TERM")
+        prism_coverDate: prism.coverDate index specified with tuple (RELATION, "TERM")
+        prism_creationDate: prism.creationDate index specified with tuple (RELATION, "TERM")
+        prism_doi: prism.doi index specified with tuple (RELATION, "TERM")
+        prism_eIssn: prism.eIssn index specified with tuple (RELATION, "TERM")
+        prism_endingPage: prism.endingPage index specified with tuple (RELATION, "TERM")
+        prism_genre: prism.genre index specified with tuple (RELATION, "TERM")
+        prism_isbn: prism.isbn index specified with tuple (RELATION, "TERM")
+        prism_issn: prism.issn index specified with tuple (RELATION, "TERM")
+        prism_number: prism.number index specified with tuple (RELATION, "TERM")
+        prism_productCode: prism.productCode index specified with tuple (RELATION, "TERM")
+        prism_publicationDate: prism.publicationDate index specified with tuple (RELATION, "TERM")
+        prism_publicationName: prism.publicationName index specified with tuple (RELATION, "TERM")
+        prism_section: prism.section index specified with tuple (RELATION, "TERM")
+        prism_startingPage: prism.startingPage index specified with tuple (RELATION, "TERM")
+        prism_subsection1: prism.subsection1 index specified with tuple (RELATION, "TERM")
+        prism_url: prism.url index specified with tuple (RELATION, "TERM")
+        prism_volume: prism.volume index specified with tuple (RELATION, "TERM")
+        maximum_records: maximum.records index specified with tuple (RELATION, "TERM")
+        start_record: start.record index specified with tuple (RELATION, "TERM")
 
     Returns:
-
+        search result (json object)
 
     Note:
         all indexes are joined with "AND"
